@@ -293,7 +293,7 @@ window.PORTFOLIO = {
         ],
       },
       stack: ['Python', 'Streamlit', 'SBERT', 'TruncatedSVD', 'Naive Bayes'],
-      links: { github: '', demo: '' },
+      links: { github: '', demo: 'https://web-skrispsi-cinematch-sobwr8nir8lplqtbfpmjycc.streamlit.app/' },
     },
 
     /* ---------- Proyek 3 ---------- */
