@@ -222,7 +222,7 @@ window.PORTFOLIO = {
         ],
       },
       stack: ['Python', 'XGBoost', 'Scikit-Learn', 'Pandas', 'Seaborn'],
-      links: { github: '', demo: '' },
+      links: { github: 'https://github.com/DaffaAtha03/ANALISIS-PERBANDINGAN-MODEL-MACHINE-LEARNING-UNTUK-PREDIKSI-PERMINTAAN-PRODUK-PADA-E-COMMERCE', demo: '' },
     },
 
     /* ---------- Proyek 2 ---------- */
@@ -395,7 +395,7 @@ window.PORTFOLIO = {
       },
       stack: ['Python', 'Ollama', 'Qwen2.5 1.5B', 'Gradio', 'SQLite', 'Pandas', 'Pytest'],
       run: ['pip install -r requirements.txt', 'ollama pull qwen2.5:1.5b', 'python app.py   # GUI di http://127.0.0.1:7860 · tambahkan --cli untuk mode teks'],
-      links: { github: '' },
+      links: { github: 'https://github.com/DaffaAtha03/private-ai-' },
       extraLink: { label: 'Lihat arsitektur lengkap', goto: 'ai' },
     },
 
