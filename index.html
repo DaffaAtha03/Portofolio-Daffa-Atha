@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, interactive-widget=resizes-content">
+  <meta name="color-scheme" content="dark">
+  <title>Muhammad Daffa Atha Rizq — Data Science, ML &amp; AI Engineer</title>
+  <meta name="description" content="Muhammad Daffa Atha Rizq — Lulusan Informatika, Data Science &amp; Machine Learning Specialist, menuju AI Engineer &amp; AI Agent Developer.">
+  <meta name="theme-color" content="#181818">
+  <!-- ===========================================================
+       PRATINJAU LINK (saat dibagikan di WhatsApp/LinkedIn) & MESIN PENCARI
+       Ubah 3 baris di bawah jika nama atau headline berubah.
+       Untuk gambar pratinjau, isi og:image dengan alamat lengkap fotomu setelah situs online,
+       contoh: https://namadomain.pages.dev/assets/img/foto-profil.jpg
+       =========================================================== -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Muhammad Daffa Atha Rizq — Data Science, ML &amp; AI Engineer">
+  <meta property="og:description" content="Portofolio Muhammad Daffa Atha Rizq — Lulusan Informatika, Data Science &amp; Machine Learning Specialist, menuju AI Engineer &amp; AI Agent Developer.">
+  <meta property="og:url" content="https://daffaatha03.github.io/Portofolio-Daffa-Atha/">
+  <meta property="og:image" content="https://daffaatha03.github.io/Portofolio-Daffa-Atha/assets/img/foto-profil.jpg">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
+  <link rel="preconnect" href="https://unpkg.com" crossorigin>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- ikon: versi minified + defer (tidak memblokir render di HP); jika gagal, otomatis jatuh ke versi penuh -->
+  <script defer src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"
+          onerror="var s=document.createElement('script');s.src='https://unpkg.com/lucide@latest/dist/umd/lucide.js';document.head.appendChild(s);"></script>
+
+  <script>
+    tailwind.config = {
+      future: { hoverOnlyWhenSupported: true },
+      theme: {
+        extend: {
+          colors: {
+            editor:  '#1e1e1e',
+            sidebar: '#181818',
+            panel:   '#242424',
+            tabbg:   '#2d2d2d',
+            line:    '#333333',
+            ink:     '#d4d4d4',
+            dim:     '#8a939c',
+            accent:     '#4fa8e0',
+            accentfill: '#007acc',
+            ok:   '#3fb950',
+            key:  '#9cdcfe',
+            str:  '#ce9178',
+            kw:   '#569cd6',
+            kw2:  '#c586c0',
+            cmt:  '#6a9955',
+            num:  '#b5cea8',
+            fn:   '#dcdcaa',
+            teal: '#4ec9b0',
+          },
+          fontFamily: {
+            ui:   ['"IBM Plex Sans"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+        },
+      },
+    }
+  </script>
+
+  <link rel="stylesheet" href="assets/style.css">
+
+</head>
+<body class="bg-editor text-ink font-ui antialiased text-[15px]">
+
+  <!-- ====================================================== -->
+  <!-- SVG SPRITE (GitHub & LinkedIn — inline agar selalu tampil) -->
+  <!-- ====================================================== -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-github" viewBox="0 0 16 16">
+      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+    </symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24">
+      <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+    </symbol>
+  </svg>
+
+  <!-- ====================================================== -->
+  <!-- MODAL SAMBUTAN (muncul saat kunjungan pertama)             -->
+  <!-- ====================================================== -->
+  <div id="welcome" role="dialog" aria-modal="true" aria-labelledby="welcome-title">
+    <div class="wcard">
+      <div class="flex items-center gap-2 px-4 h-9 bg-tabbg border-b border-line text-[11px] text-dim font-mono">
+        <span class="traffic bg-[#ff5f57]"></span><span class="traffic bg-[#febc2e]"></span><span class="traffic bg-[#28c840]"></span>
+        <span class="ml-2" data-i18n="w_title">Welcome — {brand}</span>
+        <span class="flex-1"></span>
+        <div class="lang-seg welcome-lang" role="group" data-i18n-attr="aria-label:lang_aria" aria-label="Pilih bahasa">
+          <button type="button" data-lang="id" aria-pressed="true" title="Bahasa Indonesia">ID</button>
+          <button type="button" data-lang="en" aria-pressed="false" title="English">EN</button>
+        </div>
+      </div>
+
+      <div class="p-5 sm:p-7">
+        <p class="font-mono text-xs text-accent mb-2" data-i18n="w_hello">// selamat datang</p>
+        <h2 id="welcome-title" class="font-ui font-bold text-xl sm:text-2xl text-white leading-snug">
+          {name}
+        </h2>
+        <p class="mt-3 text-sm text-dim leading-relaxed" data-i18n-html="w_intro">
+          Tampilannya sengaja dibuat seperti <b class="text-ink font-medium">code editor</b>, karena saya bekerja di dunia
+          data &amp; AI. Tenang — <b class="text-ink font-medium">tidak perlu bisa coding</b> untuk membacanya.
+          Pilih cara yang paling nyaman buat kamu:
+        </p>
+
+        <div class="grid sm:grid-cols-2 gap-3 mt-5">
+          <button class="choice" data-welcome="reader">
+            <i data-lucide="book-open" class="w-5 h-5 text-ok"></i>
+            <h3 data-i18n="w_reader_t">Tampilan Ringkas</h3>
+            <p data-i18n="w_reader_p">Layout biasa, teks jelas, tanpa kode. Cocok untuk HRD, recruiter, dan siapa saja yang ingin cepat paham.</p>
+          </button>
+          <button class="choice" data-welcome="code">
+            <i data-lucide="file-code" class="w-5 h-5 text-accent"></i>
+            <h3 data-i18n="w_code_t">Code Editor</h3>
+            <p data-i18n="w_code_p">Tampilan ala VS Code dengan file, tab, dan syntax highlighting — lengkap dengan kotak penjelasan.</p>
+          </button>
+        </div>
+
+        <label class="flex items-center gap-2 mt-5 text-xs text-dim cursor-pointer select-none">
+          <input id="welcome-tour" type="checkbox" checked class="accent-[#007acc]">
+          <span data-i18n="w_tour">Tampilkan tur singkat (±30 detik) jika memilih Code Editor</span>
+        </label>
+
+        <p class="mt-4 pt-4 border-t border-line text-[11.5px] text-dim leading-relaxed" data-i18n-html="w_foot">
+          Kapan saja kamu bisa ganti tampilan lewat tombol <b class="text-ink font-medium">Code | Ringkas</b> di pojok kanan atas,
+          atau langsung <b class="text-ink font-medium">tanya {agent}</b> lewat tombol biru di pojok kanan bawah.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====================================================== -->
+  <!-- KARTU TUR                                                  -->
+  <!-- ====================================================== -->
+  <div id="tour" role="dialog" aria-live="polite" aria-label="Tur singkat" data-i18n-attr="aria-label:tour_label">
+    <div class="flex items-center justify-between mb-1.5">
+      <p class="font-mono text-[11px] text-accent" id="tour-count">1 / 5</p>
+      <button id="tour-skip" class="text-[11px] text-dim hover:text-white" data-i18n="tour_skip">Lewati</button>
+    </div>
+    <p id="tour-title" class="font-ui font-semibold text-white text-sm"></p>
+    <p id="tour-text" class="mt-1 text-[12.5px] text-dim leading-relaxed"></p>
+    <div class="flex items-center justify-between mt-3">
+      <button id="tour-prev" class="px-3 py-1.5 text-xs border border-line rounded text-dim hover:text-white hover:border-accent" data-i18n="tour_prev">Kembali</button>
+      <button id="tour-next" class="px-3 py-1.5 text-xs rounded bg-accentfill hover:bg-accent text-white font-medium">Lanjut</button>
+    </div>
+  </div>
+
+  <!-- ====================================================== -->
+  <!-- TITLE BAR (selalu tampil di kedua mode)                    -->
+  <!-- ====================================================== -->
+  <header id="titlebar" class="fixed top-0 inset-x-0 z-50 h-9 bg-sidebar border-b border-line flex items-center px-3 gap-2 sm:gap-3">
+    <div class="hidden sm:flex items-center gap-2 mr-1">
+      <span class="traffic bg-[#ff5f57]"></span>
+      <span class="traffic bg-[#febc2e]"></span>
+      <span class="traffic bg-[#28c840]"></span>
+    </div>
+
+    <button id="drawer-btn" class="ide-only md:hidden inline-flex items-center justify-center w-6 h-6 rounded text-dim hover:text-white" aria-label="Buka daftar file" title="Daftar file" data-i18n-attr="aria-label:aria_files;title:t_files">
+      <i data-lucide="menu" class="w-4 h-4"></i>
+    </button>
+
+    <p id="title-text" class="flex-1 text-center text-xs text-dim font-mono truncate hidden md:block">
+      {brand}
+    </p>
+    <span class="flex-1 md:hidden"></span>
+
+    <div class="seg" role="group" aria-label="Pilih tampilan" data-i18n-attr="aria-label:seg_aria">
+      <button id="seg-code" class="on" data-mode="code" aria-pressed="true" title="Tampilan code editor" data-i18n-attr="title:t_code_view">
+        <i data-lucide="file-code" class="w-3 h-3"></i><span data-i18n="seg_code">Code</span>
+      </button>
+      <button id="seg-reader" data-mode="reader" aria-pressed="false" title="Tampilan ringkas yang mudah dibaca" data-i18n-attr="title:t_reader_view">
+        <i data-lucide="book-open" class="w-3 h-3"></i><span data-i18n="seg_reader">Ringkas</span>
+      </button>
+    </div>
+
+    <div class="lang-seg" role="group" aria-label="Pilih bahasa" data-i18n-attr="aria-label:lang_aria">
+      <button type="button" data-lang="id" aria-pressed="true" title="Bahasa Indonesia">ID</button>
+      <button type="button" data-lang="en" aria-pressed="false" title="English">EN</button>
+    </div>
+
+    <button id="btn-help-toggle" class="pill on ide-only" aria-pressed="true" title="Tampilkan / sembunyikan kotak penjelasan" data-i18n-attr="title:t_hint">
+      <i data-lucide="lightbulb" class="w-3 h-3"></i><span class="hidden sm:inline" data-i18n="hint_btn">Penjelasan</span>
+    </button>
+
+    <button id="btn-tour" class="inline-flex items-center justify-center w-6 h-6 rounded text-dim hover:text-white" aria-label="Mulai tur singkat" title="Tur singkat" data-i18n-attr="aria-label:t_help;title:t_tour">
+      <i data-lucide="info" class="w-4 h-4"></i>
+    </button>
+  </header>
+
+  <!-- ====================================================== -->
+  <!-- ============== MODE: CODE EDITOR (#ide) ================ -->
+  <!-- ====================================================== -->
+  <div id="ide">
+
+    <!-- menu bar: View / Terminal / Help berfungsi -->
+    <div id="menubar" class="fixed top-9 inset-x-0 z-40 h-7 bg-sidebar border-b border-line hidden sm:flex items-center px-3 gap-0.5 text-[11px] font-ui text-dim">
+      <span class="px-1.5 cursor-default" title="Hanya hiasan" data-i18n-attr="title:deco">File</span>
+      <span class="px-1.5 cursor-default" title="Hanya hiasan" data-i18n-attr="title:deco">Edit</span>
+      <span class="px-1.5 cursor-default" title="Hanya hiasan" data-i18n-attr="title:deco">Selection</span>
+      <button class="menu-act" data-action="toggle-mode" title="Ganti tampilan" data-i18n-attr="title:t_view">View</button>
+      <span class="px-1.5 cursor-default" title="Hanya hiasan" data-i18n-attr="title:deco">Go</span>
+      <span class="px-1.5 cursor-default" title="Hanya hiasan" data-i18n-attr="title:deco">Run</span>
+      <button class="menu-act" data-action="open-agent" title="Buka {agent}" data-i18n-attr="title:t_terminal">Terminal</button>
+      <button class="menu-act" data-action="start-tour" title="Mulai tur singkat" data-i18n-attr="title:t_help">Help</button>
+      <span class="ml-auto hidden lg:inline text-[10.5px] text-dim/80" data-i18n-html="mb_hint">
+        Menu aktif: <b class="text-dim font-medium">View</b> = ganti tampilan &middot;
+        <b class="text-dim font-medium">Terminal</b> = tanya agent &middot;
+        <b class="text-dim font-medium">Help</b> = tur
+      </span>
+    </div>
+
+    <!-- activity bar -->
+    <nav id="activity" class="hidden md:flex flex-col items-center gap-1 fixed left-0 top-16 bottom-6 w-12 bg-sidebar border-r border-line pt-2 z-40" aria-label="Activity bar">
+      <button class="w-10 h-10 flex items-center justify-center text-white border-l-2 border-accentfill" title="Explorer — daftar bagian" aria-label="Explorer" data-i18n-attr="title:t_explorer">
+        <i data-lucide="files" class="w-5 h-5"></i>
+      </button>
+      <button id="act-search" class="w-10 h-10 flex items-center justify-center text-dim hover:text-white" title="Cari bagian" aria-label="Cari bagian" data-i18n-attr="title:t_search;aria-label:t_search">
+        <i data-lucide="search" class="w-5 h-5"></i>
+      </button>
+      <button data-action="open-agent" class="w-10 h-10 flex items-center justify-center text-dim hover:text-white" title="Tanya {agent}" aria-label="Tanya {agent}" data-i18n-attr="title:t_ask;aria-label:t_ask">
+        <i data-lucide="bot" class="w-5 h-5"></i>
+      </button>
+      <button data-action="mode-reader" class="w-10 h-10 flex items-center justify-center text-dim hover:text-white" title="Ganti ke Tampilan Ringkas" aria-label="Tampilan Ringkas" data-i18n-attr="title:t_to_reader;aria-label:t_to_reader">
+        <i data-lucide="book-open" class="w-5 h-5"></i>
+      </button>
+    </nav>
+
+    <!-- explorer (desktop) -->
+    <aside id="explorer" class="hidden md:flex flex-col fixed left-12 top-16 bottom-6 w-60 bg-sidebar border-r border-line z-40">
+      <div class="px-3 pt-3 pb-2">
+        <p class="text-[11px] tracking-wider text-dim mb-2">EXPLORER</p>
+        <input id="file-filter" class="filter-input" type="text" placeholder="Cari bagian… (mis. proyek, kontak)" aria-label="Cari bagian portofolio" data-i18n-attr="placeholder:ph_filter;aria-label:aria_filter" autocomplete="off">
+      </div>
+      <div class="px-3 pb-1 text-[11px] font-semibold text-ink flex items-center gap-1.5">
+        <i data-lucide="chevron-down" class="w-3.5 h-3.5"></i> PORTFOLIO
+      </div>
+      <div id="file-list" class="flex-1 overflow-y-auto py-1"></div>
+      <div class="p-3 border-t border-line">
+        <p class="text-[11px] text-dim leading-relaxed mb-2" data-i18n="ex_note">Setiap &ldquo;file&rdquo; = satu bagian portofolio. Klik untuk membukanya.</p>
+        <button data-action="mode-reader" class="w-full flex items-center justify-center gap-1.5 text-[11.5px] text-ink border border-line rounded py-1.5 hover:border-accent hover:text-white">
+          <i data-lucide="book-open" class="w-3.5 h-3.5"></i> <span data-i18n="btn_open_reader">Buka Tampilan Ringkas</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- drawer (mobile) -->
+    <div id="drawer-backdrop" class="md:hidden fixed inset-0 bg-black/60 z-40"></div>
+    <aside id="drawer" class="md:hidden fixed left-0 top-9 bottom-0 w-72 bg-sidebar border-r border-line z-50 flex flex-col">
+      <div class="px-3 pt-4 pb-2">
+        <p class="text-[11px] tracking-wider text-dim">EXPLORER &middot; PORTFOLIO</p>
+      </div>
+      <div id="drawer-list" class="flex-1 overflow-y-auto py-1"></div>
+      <div class="p-3 border-t border-line">
+        <button data-action="mode-reader" class="w-full flex items-center justify-center gap-1.5 text-xs text-ink border border-line rounded py-2 hover:border-accent">
+          <i data-lucide="book-open" class="w-3.5 h-3.5"></i> <span data-i18n="btn_open_reader">Buka Tampilan Ringkas</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- ================================================== -->
+    <!-- KOLOM KANAN: TAB + KONTEN                              -->
+    <!-- ================================================== -->
+    <div id="editor" class="pt-9 sm:pt-16 pb-8 md:pl-[288px]">
+
+      <div id="tabs" class="sticky top-9 sm:top-16 z-30 flex bg-tabbg border-b border-line overflow-x-auto" role="tablist" aria-label="Bagian portofolio" data-i18n-attr="aria-label:tabs_aria"></div>
+
+      <div class="px-5 py-1.5 text-[11px] text-dim font-mono border-b border-line/60 bg-editor flex items-center justify-between gap-3">
+        <span>portfolio &gt; <span id="breadcrumb-file" class="text-ink/80">hero.tsx</span></span>
+        <span id="breadcrumb-sub" class="hidden sm:inline font-ui text-dim/90">Beranda</span>
+      </div>
+
+
+      <!-- Semua bagian di bawah dibuat otomatis dari content.js oleh assets/app.js -->
+      <div id="ide-sections"></div>
+
+
+    </div><!-- /#editor -->
+    <!-- ================================================== -->
+    <!-- STATUS BAR                                             -->
+    <!-- ================================================== -->
+    <div id="statusbar" class="fixed bottom-0 inset-x-0 z-50 h-6 bg-accentfill flex items-center justify-between px-3 text-[11px] text-white font-ui">
+      <div class="flex items-center gap-1.5">
+        <span class="flex items-center gap-1 pr-1"><i data-lucide="git-branch" class="w-3 h-3"></i>main</span>
+        <button data-action="open-agent" class="flex items-center gap-1 px-1.5 h-6 hover:bg-white/15">
+          <i data-lucide="bot" class="w-3 h-3"></i> <span data-i18n="sb_ask">Tanya Agent</span>
+        </button>
+        <span class="hidden sm:inline px-1.5">0 errors, 0 warnings</span>
+      </div>
+      <div class="flex items-center gap-1.5">
+        <button data-action="mode-reader" class="hidden sm:flex items-center px-1.5 h-6 hover:bg-white/15" title="Ganti ke Tampilan Ringkas" data-i18n-attr="title:t_to_reader">
+          <span data-i18n="sb_mode">Mode: Code Editor</span>
+        </button>
+        <span class="hidden md:inline px-1.5">UTF-8</span>
+        <span id="status-msg" class="px-1.5">open to work</span>
+        <span id="clock" class="font-mono px-1.5">00:00</span>
+      </div>
+    </div>
+
+  </div><!-- /#ide -->
+
+  <!-- ====================================================== -->
+  <!-- ============ MODE: TAMPILAN RINGKAS (#reader) ========== -->
+  <!-- ====================================================== -->
+  <main id="reader">
+
+    <nav class="sticky top-9 z-30 bg-sidebar/95 backdrop-blur border-b border-line" aria-label="Navigasi bagian" data-i18n-attr="aria-label:nav_aria">
+      <div id="r-pills" class="max-w-4xl mx-auto px-5 sm:px-8 py-2.5 flex gap-2 overflow-x-auto"></div>
+    </nav>
+
+    <div class="max-w-4xl mx-auto px-5 sm:px-8 pb-28">
+
+      <!-- Dibuat otomatis dari content.js -->
+      <div id="reader-sections"></div>
+
+    </div>
+  </main>
+
+  <!-- ====================================================== -->
+  <!-- DAFFA-AGENT — panel chat tanya bebas (AI / lokal)            -->
+  <!-- ====================================================== -->
+  <div id="agent" role="dialog" aria-label="{agent}, asisten tanya-jawab portofolio" data-i18n-attr="aria-label:ag_dialog">
+    <div class="flex items-center gap-2 px-3 h-10 bg-tabbg border-b border-line shrink-0">
+      <i data-lucide="bot" class="w-4 h-4 text-accent"></i>
+      <p class="font-mono text-xs text-white uppercase">{agent}</p>
+      <span id="agent-badge" class="badge">LOKAL</span>
+      <span class="flex-1"></span>
+      <button id="agent-clear" type="button" class="text-[11px] text-dim hover:text-white px-1.5" title="Mulai ulang percakapan" data-i18n-attr="title:ag_reset_t" data-i18n="ag_reset">Reset</button>
+      <button id="agent-close" type="button" class="inline-flex items-center justify-center w-6 h-6 rounded text-dim hover:text-white" aria-label="Tutup panel agent" data-i18n-attr="aria-label:ag_close">
+        <i data-lucide="x" class="w-4 h-4"></i>
+      </button>
+    </div>
+
+    <div id="agent-log" class="a-scroll" aria-live="polite"></div>
+
+    <div id="agent-chips-wrap" class="px-3 pt-2 pb-1 border-t border-line shrink-0">
+      <p class="text-[10.5px] text-dim mb-1.5" data-i18n="ag_chips">Contoh pertanyaan (opsional &mdash; kamu bebas mengetik sendiri):</p>
+      <div id="agent-chips" class="flex flex-wrap gap-1.5 max-h-[88px] overflow-y-auto"></div>
+    </div>
+
+    <form id="agent-form" class="flex items-end gap-2 p-3 pt-2 shrink-0 border-t border-line/60" autocomplete="off">
+      <textarea id="agent-input" class="filter-input flex-1" rows="1" maxlength="500"
+                style="padding:.55rem .7rem;font-size:13px;line-height:1.4;resize:none;max-height:96px"
+                placeholder="Tanya apa saja tentang {first}…" aria-label="Pertanyaan untuk {agent}" data-i18n-attr="placeholder:ag_ph;aria-label:ag_ph_aria"></textarea>
+      <button type="submit" class="inline-flex items-center justify-center w-9 h-9 shrink-0 rounded-md bg-accentfill hover:bg-accent text-white" aria-label="Kirim pertanyaan" data-i18n-attr="aria-label:ag_send">
+        <i data-lucide="send" class="w-4 h-4"></i>
+      </button>
+    </form>
+    <p id="agent-note" class="px-3 pb-2 text-[10px] text-dim/80 leading-snug shrink-0"></p>
+  </div>
+
+  <button id="agent-fab" type="button" aria-label="Buka {agent}" data-i18n-attr="aria-label:ag_fab_aria">
+    <i data-lucide="bot" class="w-4 h-4"></i> <span data-i18n="ag_fab">Tanya Agent</span>
+  </button>
+
+  <!-- ====================================================== -->
+  <!-- LIGHTBOX GAMBAR DOKUMENTASI                                  -->
+  <!-- ====================================================== -->
+  <div id="lightbox" role="dialog" aria-modal="true" aria-label="Penampil gambar dokumentasi" data-i18n-attr="aria-label:lb_dialog" hidden>
+    <button type="button" class="lb-close" id="lb-close" aria-label="Tutup" data-i18n-attr="aria-label:lb_close"><i data-lucide="x" class="w-5 h-5"></i></button>
+    <button type="button" class="lb-nav lb-prev" id="lb-prev" aria-label="Sebelumnya" data-i18n-attr="aria-label:lb_prev"><i data-lucide="chevron-left" class="w-6 h-6"></i></button>
+    <button type="button" class="lb-nav lb-next" id="lb-next" aria-label="Berikutnya" data-i18n-attr="aria-label:lb_next"><i data-lucide="chevron-right" class="w-6 h-6"></i></button>
+    <figure class="lb-fig">
+      <div class="lb-img"><img id="lb-img" alt=""></div>
+      <figcaption>
+        <p id="lb-count" class="lb-count"></p>
+        <p id="lb-cap" class="lb-cap"></p>
+        <p id="lb-note" class="lb-note"></p>
+      </figcaption>
+    </figure>
+  </div>
+
+  <!-- ====================================================== -->
+  <!-- JAVASCRIPT                                               -->
+  <!-- ====================================================== -->
+  <!-- content.js = isi portofolio (EDIT file ini) · app.js = mesin (jangan diubah) -->
+  <script src="content.js"></script>
+  <script src="content.en.js"></script>
+  <script src="assets/i18n.js"></script>
+  <script src="assets/app.js"></script>
+
+</body>
+</html>
