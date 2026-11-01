@@ -225,7 +225,7 @@ window.PORTFOLIO = {
       },
       stack: ['HTML5', 'CSS3', 'JavaScript', 'i18n', 'RTL', 'ARIA', 'GitHub Pages'],
       run: ['python -m http.server   # lalu buka http://localhost:8000', '# atau buka index.html langsung di browser'],
-      links: { github: '', demo: '' },
+      links: { github: 'https://github.com/DaffaAtha03/barokah-bersama-logistik', demo: 'https://barokah-bersama-logistik.netlify.app/' },
     },
 
     /* ---------- Proyek 2 ---------- */
@@ -447,7 +447,7 @@ window.PORTFOLIO = {
         ],
       },
       stack: ['Python', 'Streamlit', 'SBERT', 'TruncatedSVD', 'Naive Bayes'],
-      links: { github: '', demo: 'https://web-skrispsi-cinematch-sobwr8nir8lplqtbfpmjycc.streamlit.app/' },
+      links: { github: 'https://github.com/DaffaAtha03/web-skrispsi-daffaatha', demo: 'https://web-skrispsi-cinematch-sobwr8nir8lplqtbfpmjycc.streamlit.app/' },
     },
 
     /* ---------- Proyek 5 ---------- */
