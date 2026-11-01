@@ -23,23 +23,23 @@ window.PORTFOLIO = {
   profile: {
     name: 'Muhammad Daffa Atha Rizq',
     firstName: 'Daffa',                         // nama panggilan (dipakai di agent & nama file)
-    headline: 'Data Science & Machine Learning Specialist',
+    headline: 'Sarjana Informatika · AI, Data & Software',
     // Teks yang mengetik bergantian di bagian atas. Tambah / hapus baris sesuka hati.
     roles: [
-      'Data Science & ML Specialist',
-      'Time-Series Demand Forecasting',
-      'Hybrid Recommendation Systems',
-      'Menuju AI Engineer & AI Agent Developer',
+      'Sarjana Informatika (IPK 3.61)',
+      'AI & Machine Learning',
+      'Data Science & Analitik',
+      'Web & Software Developer',
     ],
-    focus: ['ML/DL Modeling', 'Demand Forecasting', 'Hybrid Recsys'],   // label fokus di bagian atas
-    next: ['AI Engineer', 'AI Agent Developer'],                        // peran yang dituju
+    focus: ['AI & Machine Learning', 'Data Science & Analitik', 'Web & Software'],   // label fokus di bagian atas
+    next: ['AI Engineer', 'Data Scientist', 'Data Analyst', 'Web / Software Developer'],   // peran yang dituju (level awal / junior)
     educationShort: 'S1 Informatika · IPK 3.61',
     education: 'S1 Informatika — Universitas Gunadarma',
     location: 'Bekasi, Jawa Barat',
     openToWork: true,                           // true = tampil "open to work"
-    bio: 'Lulusan Sarjana Informatika yang berfokus pada pemodelan Machine Learning & Deep Learning, prediksi permintaan (time-series forecasting), sistem rekomendasi hybrid, serta pengelolaan data operasional.',
+    bio: 'Lulusan baru Sarjana Informatika yang membangun sistem AI, menganalisis data, dan mengembangkan web & software dengan cara kerja yang sama: memahami kebutuhan, membangun solusi yang diuji, lalu mendokumentasikannya. Saya juga pernah bekerja langsung dengan data dan proses bisnis nyata, sehingga terbiasa mengubah kebutuhan non-teknis menjadi solusi yang berguna.',
     // Ringkasan singkat siapa kamu — dipakai Daffa-Agent saat ditanya "siapa Daffa?"
-    summary: 'lulusan S1 Informatika Universitas Gunadarma (IPK 3.61) dengan spesialisasi Data Science & Machine Learning, plus pengalaman lapangan di administrasi logistik. Saat ini ia bertransisi menuju **AI Engineer & AI Agent Developer**.',
+    summary: 'lulusan baru S1 Informatika Universitas Gunadarma (IPK 3.61) dengan tiga jalur kemampuan yang saling menopang: AI & machine learning (sistem rekomendasi hibrida CineMatch AI dan agent AI lokal PrivateAI), data science & analitik (prediksi permintaan XGBoost atas lebih dari 2,9 juta baris transaksi dan dashboard 18 analisis), serta web & software (website perusahaan empat bahasa dan konverter dokumen massal). Ia juga punya pengalaman kerja dengan data, laporan, kontrak, dan penagihan di bisnis nyata, dan terbuka untuk peran tingkat awal sebagai AI Engineer, Data Scientist, Data Analyst, maupun Web/Software Developer.',
   },
 
   /* ================================================================
@@ -55,8 +55,8 @@ window.PORTFOLIO = {
     photoPosition: '50% 22%',                   // posisi foto di bingkai: geser kiri-kanan / atas-bawah
     address: 'Bekasi, Jawa Barat',
     title: 'Mari Terhubung',
-    help: '**Cara menghubungi saya.** Teks berwarna oranye yang bisa diklik akan membuka WhatsApp atau email. Saya terbuka untuk peluang kerja, magang, maupun kolaborasi proyek data & AI.',
-    intro: 'Terbuka untuk peluang kerja, magang, maupun kolaborasi proyek data & AI.',
+    help: '**Cara menghubungi saya.** Teks berwarna oranye yang bisa diklik akan membuka WhatsApp atau email. Saya terbuka untuk peluang kerja, magang, maupun kolaborasi proyek AI, data, dan web.',
+    intro: 'Terbuka untuk peluang kerja, magang, maupun kolaborasi proyek AI, data, dan web.',
   },
 
   /* Pengaturan umum halaman */
@@ -64,7 +64,7 @@ window.PORTFOLIO = {
     titleBar: 'daffa-portfolio — index.html — Visual Studio Code',   // tulisan di bilah atas (mode Code)
     titleBarReader: 'daffa-portfolio — Tampilan Ringkas',
     footer: '© 2026 Muhammad Daffa Atha Rizq',
-    statusMessages: ['open to work', 'siap berkolaborasi', 'menuju AI Engineer'],   // teks bergantian di status bar bawah
+    statusMessages: ['open to work', 'siap berkolaborasi', 'terbuka untuk peran AI, data & software'],   // teks bergantian di status bar bawah
   },
 
   /* Sembunyikan bagian tertentu tanpa menghapus isinya. Pilihan:
@@ -79,23 +79,23 @@ window.PORTFOLIO = {
     title: 'Tentang Saya',
     help: '**Ringkasan siapa saya.** Kotak di bawah (disebut *frontmatter*) berisi data singkat: lokasi, pendidikan, dan angka-angka penting dari proyek saya. Setelahnya ada penjelasan dalam kalimat biasa. Arahkan kursor (atau ketuk) pada kata bergaris titik untuk melihat artinya.',
     paragraphs: [
-      'Lulusan S1 Informatika dari **Universitas Gunadarma** (IPK 3.61). Memiliki keahlian kuat dalam membangun end-to-end Machine Learning pipeline berbasis kerangka CRISP-DM, pengolahan dataset skala besar (>2,9 juta transaksi), dan pembuatan aplikasi web interaktif.',
-      'Memiliki kombinasi unik antara kemampuan riset teknis AI dengan pengalaman praktis di lapangan dalam administrasi logistik, manajemen basis data, serta pengelolaan armada (fleet management).',
-      'Arah saya berikutnya adalah **AI Engineer & AI Agent Developer**: membangun sistem AI yang tidak hanya pintar, tetapi aman, bisa diaudit, dan tetap dikendalikan manusia.',
+      'Lulusan S1 Informatika dari **Universitas Gunadarma** (IPK 3.61). Saya terbiasa memecah masalah menjadi langkah yang jelas: memahami kebutuhan, mengolah data, membangun solusi, mengujinya, lalu mendokumentasikannya supaya bisa dipakai dan dirawat orang lain.',
+      'Kemampuan saya berada di tiga jalur yang saling menopang: **AI & machine learning** (sistem rekomendasi hibrida CineMatch AI dan agent AI lokal PrivateAI), **data science & analitik** (prediksi permintaan dari dataset >2,9 juta transaksi dan dashboard 18 analisis), serta **web & software** (website perusahaan empat bahasa dan alat konversi dokumen massal). Di balik itu, pengalaman kerja saya di administrasi, pelaporan keuangan, kontrak, dan penagihan membuat saya terbiasa dengan data dan proses bisnis yang sebenarnya, bukan hanya dataset latihan.',
+      'Saya melamar ke peran tingkat awal yang sesuai dengan bukti proyek: **AI Engineer, Data Scientist, Data Analyst, atau Web/Software Developer**. Bagian “Peran & bukti” menunjukkan proyek mana yang mendukung tiap peran, termasuk hal yang masih saya pelajari.',
     ],
     strengthsTitle: 'Yang Saya Bawa',
     strengths: [
-      { title: 'End-to-End ML Pipeline', text: 'dari persiapan data, feature engineering, modeling, hingga evaluasi.' },
-      { title: 'Data Skala Besar', text: 'terbiasa mengolah dataset dengan jutaan baris transaksi secara efisien.' },
-      { title: 'Siap Lapangan & Operasional', text: 'pengalaman nyata menangani administrasi logistik, kontrak, dan krisis armada.' },
-      { title: 'Pola Pikir Human-in-the-Loop', text: 'AI mengerjakan bagian teknis yang berulang, manusia memverifikasi dan bertanggung jawab.' },
+      { title: 'Membangun Sistem AI yang Bisa Diuji', text: 'model machine learning dan agent AI lokal dengan lapisan keamanan, validasi, serta 141 tes otomatis.' },
+      { title: 'Analisis & Pemodelan Data', text: 'mengolah dataset berjuta baris, membandingkan model dengan metrik yang jelas (RMSE, MAE, R²), dan menyajikannya sebagai dashboard.' },
+      { title: 'Rekayasa Web & Software', text: 'website empat bahasa (termasuk kanan ke kiri) dan aplikasi konversi dokumen yang tahan untuk ratusan file.' },
+      { title: 'Teliti & Paham Kebutuhan Bisnis', text: 'mencatat batasan secara terbuka, tidak mengarang angka, dan terbiasa bekerja dengan data serta dokumen bisnis nyata.' },
     ],
     // Angka-angka penting. `value` = angka yang menghitung naik; `display` = teks biasa (tanpa animasi).
     stats: [
       { key: 'gpa', label: 'IPK', display: '3.61 / 4.00' },
       { key: 'rows_processed', label: 'baris transaksi diolah', value: 2900000, suffix: '+', tip: 'Jumlah baris data transaksi yang saya olah di proyek prediksi permintaan.' },
       { key: 'dashboard_charts', label: 'grafik dashboard bisnis', value: 18, tip: 'Jumlah grafik bisnis pada dashboard analitik interaktif.' },
-      { key: 'best_model_r2', label: 'R² model terbaik', value: 0.63, decimals: 3, tip: 'R² mengukur seberapa baik model menjelaskan data. Skalanya 0–1; makin dekat 1 makin baik.' },
+      { key: 'automated_tests', label: 'tes otomatis di proyek saya', value: 152, tip: 'Gabungan tes otomatis di dua proyek: Konverter Dokumen (11) dan PrivateAI (141).' },
     ],
   },
 
@@ -106,18 +106,18 @@ window.PORTFOLIO = {
   skills: {
     title: 'Keahlian & Tools',
     help: '**Daftar kemampuan saya, dikelompokkan per bidang.** Anggap kotak-kotak kecil di bawah sebagai “tag” keahlian. Arahkan kursor (atau ketuk) pada tag untuk melihat penjelasan singkat istilah teknisnya.',
-    intro: 'Gabungan kemampuan teknis data science dengan pengalaman operasional di lapangan. Arahkan kursor (atau ketuk) pada tag untuk melihat artinya.',
+    intro: 'Gabungan kemampuan membangun sistem AI, menganalisis data, dan mengembangkan software. Arahkan kursor (atau ketuk) pada tag untuk melihat artinya.',
     groups: [
-      { key: 'machine_learning_ai', title: 'Machine Learning & AI', desc: 'Membangun model prediktif dan sistem rekomendasi, dari riset sampai evaluasi.',
-        items: ['XGBoost', 'Scikit-Learn', 'Sentence-BERT', 'TruncatedSVD', 'Multinomial Naive Bayes', 'Deep Learning', 'Feature Engineering', 'Time-Series Forecasting'] },
+      { key: 'machine_learning_ai', title: 'Machine Learning & AI', desc: 'Model prediktif, sistem rekomendasi, dan agent AI lokal dari proyek tugas akhir dan PrivateAI.',
+        items: ['XGBoost', 'Scikit-Learn', 'Sentence-BERT', 'TruncatedSVD', 'Multinomial Naive Bayes', 'Deep Learning', 'Feature Engineering', 'Time-Series Forecasting', 'LLM', 'Ollama', 'AI Agent', 'Gradio'] },
       { key: 'data_analytics', title: 'Data Analytics & Viz', desc: 'Menjelajahi data, menemukan pola, dan menyajikannya secara visual.',
-        items: ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'CRISP-DM', 'EDA', 'Data Entry'] },
-      { key: 'programming_web', title: 'Programming & Web', desc: 'Membangun aplikasi dan dashboard interaktif di sekitar model.',
-        items: ['Python', 'SQL', 'JavaScript', 'HTML5', 'CSS3', 'Streamlit', 'Flask', 'Bootstrap'] },
-      { key: 'tools_database', title: 'Tools & Database', desc: 'Menyimpan, mengelola, dan melacak data serta kode selama proyek berjalan.',
-        items: ['MySQL', 'phpMyAdmin', 'Git', 'GitHub', 'Google Colab'] },
-      { key: 'operational_admin', title: 'Operational & Admin', desc: 'Menjaga operasional tetap berjalan — dari kontrak sampai lapangan.',
-        items: ['Fleet Management', 'Financial & Contract Reporting', 'Crisis Management'] },
+        items: ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'CRISP-DM', 'EDA'] },
+      { key: 'programming_web', title: 'Programming & Web', desc: 'Membangun situs, aplikasi, dan alat otomasi yang dipakai orang sungguhan.',
+        items: ['Python', 'SQL', 'JavaScript', 'HTML5', 'CSS3', 'Jinja2', 'Flask', 'Streamlit', 'Bootstrap', 'i18n', 'RTL', 'ARIA'] },
+      { key: 'tools_database', title: 'Database, Tools & Pengujian', desc: 'Menyimpan data, menjaga kode, dan menguji hasil kerja.',
+        items: ['MySQL', 'phpMyAdmin', 'Git', 'GitHub', 'Unit Testing', 'Google Colab'] },
+      { key: 'business_ops', title: 'Bisnis & Pelaporan', desc: 'Pengalaman kerja dengan data, dokumen, dan proses bisnis nyata, bukan hanya dataset latihan.',
+        items: ['Data Entry', 'Financial & Contract Reporting', 'Invoicing & Billing', 'Crisis Management'] },
     ],
   },
 
@@ -147,15 +147,98 @@ window.PORTFOLIO = {
 
     /* ---------- Proyek 1 ---------- */
     {
+      file: 'bbl-website.js',
+      name: 'bblWebsite',
+      short: 'Website perusahaan',
+      title: 'Proyek 1 — Website CV. Barokah Bersama Logistik',
+      category: 'Web Development · Multi Bahasa',
+      badge: '',
+      keywords: 'bbl barokah bersama logistik website web company profile situs statis github pages html css javascript multi bahasa i18n arab rtl mandarin whatsapp aksesibilitas',
+      help: '**Intinya:** saya membangun website resmi sebuah perusahaan transportasi dan perdagangan dalam **empat bahasa, termasuk Arab yang ditulis kanan ke kiri**, tanpa server dan tanpa biaya hosting, dengan data perusahaan yang cukup diubah di satu berkas.\nSetiap proyek saya tulis dengan pola yang sama: **problem** (masalah), **method** (cara menyelesaikan), **result** (hasil), **impact** (dampak).',
+      intro: 'Website profil perusahaan (Beranda, Tentang, Visi & Misi, Layanan, Armada, Legalitas, Kontak) dalam bahasa Indonesia, Inggris, Arab, dan Mandarin, lengkap dengan galeri armada, form yang membuka WhatsApp, dan peta lokasi.',
+      info: { type: 'Situs statis', hosting: 'GitHub Pages', languages: '4 bahasa' },
+      problem: 'Sebuah perusahaan transportasi dan perdagangan membutuhkan situs yang tampak profesional, ringan dibuka di HP, tersedia dalam beberapa bahasa, dan **mudah dirawat tanpa pengembang penuh waktu**, dengan biaya serendah mungkin dan tanpa server atau database yang harus dijaga.',
+      method: 'Saya memilih **situs statis** (HTML, CSS, dan JavaScript murni). Data perusahaan ada di satu berkas (config.js), armada di fleet-data.js, dan setiap bahasa punya berkas teks dengan 90 kunci yang sama. Mesin ganti bahasa memilih bahasa dari URL, pilihan tersimpan, lalu bahasa browser; Arab otomatis berarah kanan ke kiri karena CSS memakai properti logis. Form kontak membuka WhatsApp dengan pesan terisi, jadi tidak butuh server.',
+      metrics: [
+        { key: 'languages', label: 'bahasa', value: 4 },
+        { key: 'text_keys', label: 'teks per bahasa', value: 90 },
+        { key: 'fleet_photos', label: 'foto armada', value: 12 },
+      ],
+      facts: { i18n: 'ID · EN · AR (RTL) · ZH', hosting: 'GitHub Pages', backend: 'tidak ada' },
+      result: 'Situs dengan tujuh bagian, 90 teks yang identik di keempat bahasa, galeri armada dengan *lightbox*, dan tata letak yang menyesuaikan HP, tablet, dan desktop. Seluruhnya sekitar 0,7 MB termasuk foto. Saat diperiksa di browser, tidak ada galat JavaScript dan tata letak Arab terbalik dengan benar.',
+      impact: 'Pengunjung bisa membaca profil perusahaan dalam bahasanya sendiri dan menghubungi lewat WhatsApp dalam satu klik. Kontak, alamat, dan armada cukup diubah di satu berkas, dan hosting gratis tanpa server yang perlu dirawat.',
+      limits: 'Situs ini belum punya **tes otomatis** (pemeriksaan dilakukan manual di browser), belum diukur kecepatannya, dan belum diuji dengan pengguna nyata. Foto armada beresolusi rendah, dan terjemahan Arab serta Mandarin belum diperiksa penutur asli.',
+      docs: {
+        title: 'Dokumentasi — Website CV. Barokah Bersama Logistik',
+        scope: 'Dokumen ini menjelaskan rancangan, fitur, dan cara merawat website. Diagram dibuat dari kode dan README repositori; tampilan situs adalah tangkapan layar dari salinan lokal.',
+        pdf: 'assets/dokumentasi/dokumentasi-website-bbl.pdf',
+        pdfInfo: '5 halaman · PDF',
+        summary: 'Tantangan utamanya bukan membuat halaman, melainkan membuat situs yang **ringan, hemat, dan mudah dirawat** tetapi tetap melayani empat bahasa, termasuk Arab yang berarah kanan ke kiri. Karena itu saya memilih situs statis, memisahkan data dari tampilan, dan membuat mesin ganti bahasa sendiri (90 kunci teks per bahasa) tanpa pustaka tambahan. Batasannya juga saya catat terbuka, termasuk bahwa situs belum punya tes otomatis.',
+        facts: [
+          { label: 'Jenis', value: 'Situs statis, tanpa build dan database' },
+          { label: 'Bahasa', value: 'ID · EN · AR (RTL) · ZH' },
+          { label: 'Isi', value: '7 bagian · 5 layanan · 5 jenis armada · 12 foto' },
+          { label: 'Biaya hosting', value: 'Gratis (GitHub Pages)' },
+        ],
+        groupsTitle: 'Empat bagian yang saya bangun',
+        groups: [
+          { title: 'Halaman & tampilan', count: '1', text: 'Tujuh bagian dalam satu halaman dengan tema aspal, marka kuning, dan teal dari logo. Tiga titik lebar responsif dan dukungan reduced motion.' },
+          { title: 'Multi bahasa', count: '2', text: 'Mesin ganti bahasa dengan 90 kunci teks per bahasa. Arab otomatis kanan ke kiri lewat properti CSS logis, tanpa stylesheet terpisah.' },
+          { title: 'Interaksi', count: '3', text: 'Tab armada dengan galeri dan lightbox (elemen dialog bawaan), menu HP, form WhatsApp, dan peta lokasi.' },
+          { title: 'Data & perawatan', count: '4', text: 'config.js untuk kontak, fleet-data.js untuk armada, dan README berisi langkah mengubah tiap hal serta memasang di GitHub Pages.' },
+        ],
+        findingsTitle: 'Keputusan desain',
+        findings: [
+          '**Statis murni:** tidak ada server atau database yang perlu dirawat atau bisa diretas, dan biaya hosting nol.',
+          '**Data dipisah dari tampilan:** kontak dan alamat diubah di config.js tanpa menyentuh index.html.',
+          '**Teks Indonesia tetap ada di HTML:** mesin pencari dan pengunjung tanpa JavaScript tetap menerima isi halaman.',
+          '**Pemilihan bahasa berlapis:** parameter ?lang, pilihan tersimpan, bahasa browser, lalu Indonesia. Teks yang belum diterjemahkan jatuh ke bahasa Indonesia, dan penyimpanan lokal dibungkus try/catch.',
+          '**Aksesibilitas:** tautan lompat, tab ARIA dengan navigasi panah (dibalik pada RTL), fokus terlihat, alt foto per bahasa.',
+          '**Privasi:** bagian Legalitas hanya memuat nama dokumen, bukan salinannya; nama pimpinan dan NIB bisa disembunyikan lewat config.',
+        ],
+        figuresTitle: 'Rancangan & tampilan situs',
+        figNote: 'Dua diagram pertama saya buat sendiri; sisanya tangkapan layar dari salinan lokal tanpa internet, sehingga memakai font cadangan sistem.',
+        figures: [
+          { src: 'assets/dokumentasi/bbl-arsitektur.webp', caption: 'Rancangan: dari data sampai tampilan', note: 'Isi (config, armada, teks bahasa) dirakit oleh i18n.js dan main.js di browser menjadi halaman, form WhatsApp, dan peta.' },
+          { src: 'assets/dokumentasi/bbl-alur-bahasa.webp', caption: 'Alur pemilihan bahasa', note: 'URL, pilihan tersimpan, bahasa browser, lalu Indonesia. Berhenti di langkah pertama yang cocok.' },
+          { src: 'assets/dokumentasi/bbl-beranda.webp', caption: 'Beranda', note: 'Judul, ajakan Minta Penawaran, foto armada, dan kartu ringkasan yang tercetak lewat animasi.' },
+          { src: 'assets/dokumentasi/bbl-armada.webp', caption: 'Bagian Armada', note: 'Tab untuk lima jenis armada; tiap tab menampilkan deskripsi dan galeri foto yang bisa diperbesar.' },
+          { src: 'assets/dokumentasi/bbl-arab-rtl.webp', caption: 'Versi Arab (kanan ke kiri)', note: 'Seluruh tata letak terbalik otomatis: menu, tombol bahasa, kartu ringkasan, dan tombol WhatsApp.' },
+          { src: 'assets/dokumentasi/bbl-kontak.webp', caption: 'Bagian Kontak', note: 'Data dari config.js, form yang membuka WhatsApp, dan peta (area peta kosong karena tangkapan dibuat tanpa internet).' },
+          { src: 'assets/dokumentasi/bbl-mobile.webp', fit: 'top', caption: 'Tampilan di HP', note: 'Menu menjadi tombol hamburger, tombol ajakan melebar, dan teks tetap terbaca di layar 390 px.' },
+        ],
+        limitsTitle: 'Batasan yang dicatat jujur',
+        limits: [
+          'Belum ada tes otomatis; pemeriksaan manual di Chromium pada lebar 1280 dan 390 px menunjukkan tidak ada galat JavaScript dan 90 kunci teks identik di keempat bahasa.',
+          'Belum ada pengukuran kecepatan (Lighthouse) dan belum ada uji dengan pengguna nyata.',
+          'Foto armada beresolusi rendah (lebar asli 232–509 px) karena diambil dari PDF.',
+          'Terjemahan Arab dan Mandarin belum tercatat diperiksa penutur asli.',
+          'Data terstruktur (JSON-LD) dibuat lewat JavaScript dan og:image masih alamat relatif, jadi pratinjau tautan perlu alamat lengkap.',
+        ],
+        nextTitle: 'Ide pengembangan',
+        next: [
+          'Menambah tes otomatis sederhana (kesamaan kunci terjemahan, tautan rusak, atribut alt) lewat GitHub Actions.',
+          'Mengganti foto armada dengan foto asli berukuran responsif (WebP).',
+          'Memasang domain sendiri, sitemap.xml, dan og:image beralamat lengkap.',
+          'Meminta penutur asli memeriksa terjemahan Arab dan Mandarin.',
+        ],
+      },
+      stack: ['HTML5', 'CSS3', 'JavaScript', 'i18n', 'RTL', 'ARIA', 'GitHub Pages'],
+      run: ['python -m http.server   # lalu buka http://localhost:8000', '# atau buka index.html langsung di browser'],
+      links: { github: '', demo: '' },
+    },
+
+    /* ---------- Proyek 2 ---------- */
+    {
       file: 'demand-forecast.js',
       name: 'demandForecasting',
       short: 'Prediksi permintaan',
-      title: 'Proyek 1 — Prediksi Permintaan E-Commerce',
-      category: 'Machine Learning & Data Analytics',
+      title: 'Proyek 2 — Analisis & Prediksi Permintaan E-Commerce',
+      category: 'Data Analytics & Forecasting',
       badge: '',
       keywords: 'forecast demand permintaan xgboost e-commerce ecommerce prediksi rmse kaggle time-series',
       help: '**Intinya:** saya membuat model yang memperkirakan berapa banyak tiap produk akan terjual setiap bulan, supaya stok bisa direncanakan lebih tepat.\nSetiap proyek saya tulis dengan pola yang sama: **problem** (masalah), **method** (cara menyelesaikan), **result** (hasil), **impact** (dampak). Angka yang bergerak adalah ukuran akurasi — makin *kecil* RMSE & MAE dan makin *besar* R², makin baik modelnya.',
-      intro: 'Model yang memperkirakan permintaan produk setiap bulan, dibangun di atas lebih dari 2,9 juta baris data transaksi Kaggle, lengkap dengan dashboard analitik interaktif.',
+      intro: 'Analisis data penjualan ritel dan model yang memperkirakan permintaan produk setiap bulan, dibangun di atas lebih dari 2,9 juta baris data transaksi Kaggle, lengkap dengan dashboard analitik dengan 18 sudut pandang.',
       info: { source: 'Kaggle', rows: '2.900.000+', output: '18 dashboard charts' },
       infoVar: 'dataset',
       problem: 'Memprediksi permintaan produk bulanan secara akurat sulit dilakukan pada data transaksi berskala besar yang penuh noise — kesalahan prediksi berdampak langsung pada perencanaan stok.',
@@ -225,12 +308,83 @@ window.PORTFOLIO = {
       links: { github: 'https://github.com/DaffaAtha03/ANALISIS-PERBANDINGAN-MODEL-MACHINE-LEARNING-UNTUK-PREDIKSI-PERMINTAAN-PRODUK-PADA-E-COMMERCE', demo: '' },
     },
 
-    /* ---------- Proyek 2 ---------- */
+    /* ---------- Proyek 3 ---------- */
+    {
+      file: 'konverter-dokumen.py',
+      name: 'KonverterDokumen',
+      short: 'Konverter Word ↔ PDF',
+      title: 'Proyek 3 — Konverter Word ↔ PDF Massal',
+      category: 'Automation Tool & Web Application',
+      badge: '',
+      color: 'text-teal',
+      keywords: 'konverter converter word pdf docx massal batch zip libreoffice pdf2docx streamlit otomasi dokumen administrasi',
+      help: '**Intinya:** saya membuat aplikasi web yang mengubah **banyak dokumen Word menjadi PDF (atau sebaliknya) sekaligus**, supaya pekerjaan administrasi yang berulang dan membosankan selesai sekali unggah.\nPola bacanya sama: problem → method → result → impact.',
+      intro: 'Aplikasi web Streamlit untuk mengubah banyak file Word ↔ PDF sekaligus: unggah banyak file atau satu ZIP berisi ratusan file, lalu unduh hasilnya sebagai satu ZIP lengkap dengan laporan status tiap file.',
+      info: { type: 'Aplikasi web (Streamlit)', input: 'file atau ZIP', output: 'ZIP + laporan CSV' },
+      problem: 'Mengubah dokumen satu per satu lambat dan mudah ada yang terlewat, terutama pada pekerjaan administrasi yang melibatkan puluhan sampai ratusan file. Dokumen kantor juga sering sensitif, sehingga tidak semua orang nyaman mengunggahnya ke layanan pihak ketiga.',
+      method: 'File disimpan ke disk sementara (bukan memori) dan diproses berkelompok dengan indikator progres. Word → PDF memakai LibreOffice (beberapa file per panggilan, beberapa proses paralel); PDF → Word memakai pdf2docx di subproses yang bisa dihentikan bila macet. Satu file rusak tidak menggagalkan yang lain, dan ada tombol Hentikan, Lanjutkan, serta coba ulang. Dua cara pakai: online untuk batch ringan, atau peluncur satu klik di komputer sendiri untuk dokumen sensitif.',
+      metrics: [
+        { key: 'test_cases', label: 'tes otomatis', value: 11 },
+        { key: 'app_lines', label: 'baris kode aplikasi', value: 716 },
+        { key: 'max_files', label: 'file per proses (bawaan)', value: 500 },
+      ],
+      facts: { wordToPdf: 'LibreOffice', pdfToWord: 'pdf2docx', report: '_laporan.csv' },
+      result: 'Aplikasi selesai dengan 11 tes otomatis; tes Word → PDF memakai LibreOffice sungguhan. Pada uji saya, 120 dokumen Word kecil menjadi PDF dalam sekitar 34 detik dengan 2 proses paralel.',
+      impact: 'Konversi massal yang tadinya manual menjadi sekali unggah. Laporan CSV memudahkan memeriksa file mana yang gagal beserta alasannya, tanpa membuka satu per satu.',
+      limits: 'Batasnya saya tulis terang-terangan di README: **tidak ada OCR** untuk PDF hasil scan, hasil PDF → Word tidak selalu 100% sama dengan tampilan PDF, dan versi online sebaiknya tidak dipakai untuk dokumen rahasia.',
+      docs: {
+        title: 'Dokumentasi — Konverter Word ↔ PDF Massal',
+        scope: 'Dokumen ini menjelaskan cara kerja, rancangan untuk batch besar, dan batasan aplikasi. Diagram alur saya buat sendiri berdasarkan README dan kode.',
+        summary: 'Konverter sederhana mudah dibuat; yang sulit adalah membuatnya **tahan untuk ratusan file**. Karena itu file diproses berkelompok dari disk, satu file rusak tidak menghentikan batch, proses PDF → Word bisa dihentikan bila macet, dan setiap file tercatat statusnya di laporan. Logika konversi (converter.py) saya pisahkan dari tampilan Streamlit supaya bisa diuji tersendiri.',
+        facts: [
+          { label: 'Antarmuka', value: 'Streamlit · unggah file atau ZIP' },
+          { label: 'Batas bawaan', value: '500 file · 100 MB per file · 1000 MB total' },
+          { label: 'Kode', value: '716 baris aplikasi · 232 baris tes' },
+          { label: 'Tes', value: '11 tes otomatis' },
+        ],
+        groupsTitle: 'Empat hal yang saya rancang',
+        groups: [
+          { title: 'Skala', count: '1', text: 'File ke disk, bukan memori; diproses berkelompok. Word → PDF mengirim beberapa file per panggilan LibreOffice dengan proses paralel.' },
+          { title: 'Ketahanan', count: '2', text: 'Satu file rusak tidak menggagalkan yang lain; subproses PDF → Word punya batas waktu dan bisa dihentikan; file yang gagal bisa dicoba ulang.' },
+          { title: 'Keamanan', count: '3', text: 'Path dari upload dan ZIP dibersihkan (membuang "..", path absolut, karakter terlarang); kata sandi aplikasi opsional lewat APP_PASSWORD; batas jumlah dan ukuran file.' },
+          { title: 'Transparansi', count: '4', text: 'Laporan _laporan.csv memuat status dan keterangan tiap file, termasuk peringatan untuk PDF hasil scan.' },
+        ],
+        findingsTitle: 'Keputusan desain',
+        findings: [
+          '**Logika dipisah dari tampilan:** converter.py tidak bergantung pada Streamlit, sehingga bisa diuji tanpa membuka aplikasi.',
+          '**Dua cara pakai:** online untuk batch ringan; komputer sendiri (tanpa batas server, file tidak keluar dari laptop) untuk batch besar atau dokumen sensitif.',
+          '**Jujur soal hasil:** keterbatasan ditulis di README dan dimunculkan sebagai keterangan pada hasil.',
+        ],
+        figuresTitle: 'Alur kerja',
+        figNote: 'Diagram dibuat sendiri berdasarkan README dan kode. Tangkapan layar aplikasi belum saya sertakan.',
+        figures: [
+          { src: 'assets/dokumentasi/konverter-alur.webp', caption: 'Alur konversi massal', note: 'Unggah, validasi batas dan keamanan, konversi berkelompok dan paralel, lalu hasil berupa ZIP dengan laporan CSV.' },
+        ],
+        limitsTitle: 'Batasan yang dicatat jujur',
+        limits: [
+          'PDF hasil scan tidak punya teks; hasil Word berisi gambar dan tidak ada OCR.',
+          'PDF → Word tidak selalu sama persis dengan PDF, terutama untuk kolom, tabel rumit, dan tulisan di atas gambar.',
+          'Word → PDF memakai LibreOffice, bukan Microsoft Word, sehingga font tertentu diganti font mirip dan fitur khusus Word bisa sedikit bergeser.',
+          'File berkata sandi gagal dikonversi (tercatat di laporan). Pada aplikasi publik, file diunggah ke server, jadi tidak cocok untuk dokumen rahasia.',
+        ],
+        nextTitle: 'Ide pengembangan',
+        next: [
+          'Menambahkan OCR untuk PDF hasil scan (saat ini hanya diberi peringatan).',
+          'Menjalankan tes PDF → Word sungguhan di lingkungan otomatis (CI).',
+          'Menambahkan tangkapan layar dan demo online ke dokumentasi.',
+        ],
+      },
+      stack: ['Python', 'Streamlit', 'LibreOffice', 'pdf2docx', 'unittest'],
+      run: ['pip install -r requirements.txt', 'streamlit run app.py', '# atau klik dua kali jalankan-lokal.bat (Windows) / ./jalankan-lokal.sh'],
+      links: { github: '', demo: '' },
+    },
+
+    /* ---------- Proyek 4 ---------- */
     {
       file: 'cinematch-ai.js',
       name: 'cineMatchAI',
       short: 'Rekomendasi film',
-      title: 'Proyek 2 — CineMatch AI (Rekomendasi Film)',
+      title: 'Proyek 4 — CineMatch AI (Rekomendasi Film)',
       category: 'AI System & Web Application',
       badge: '',
       keywords: 'film rekomendasi cinematch recommender hybrid streamlit sbert precision recall uat lokal indonesia',
@@ -296,12 +450,12 @@ window.PORTFOLIO = {
       links: { github: '', demo: 'https://web-skrispsi-cinematch-sobwr8nir8lplqtbfpmjycc.streamlit.app/' },
     },
 
-    /* ---------- Proyek 3 ---------- */
+    /* ---------- Proyek 5 ---------- */
     {
       file: 'private-ai.py',
       name: 'PrivateAI',
       short: 'AI agent lokal',
-      title: 'Proyek 3 — PrivateAI (AI Agent Lokal & Offline)',
+      title: 'Proyek 5 — PrivateAI (AI Agent Lokal & Offline)',
       category: 'AI Agent Engineering',
       badge: 'MVP',
       color: 'text-teal',
@@ -396,7 +550,6 @@ window.PORTFOLIO = {
       stack: ['Python', 'Ollama', 'Qwen2.5 1.5B', 'Gradio', 'SQLite', 'Pandas', 'Pytest'],
       run: ['pip install -r requirements.txt', 'ollama pull qwen2.5:1.5b', 'python app.py   # GUI di http://127.0.0.1:7860 · tambahkan --cli untuk mode teks'],
       links: { github: 'https://github.com/DaffaAtha03/private-ai-' },
-      extraLink: { label: 'Lihat arsitektur lengkap', goto: 'ai' },
     },
 
     /* Mau tambah proyek baru? Hapus tanda /* dan * / di bawah, lalu isi.
@@ -404,7 +557,7 @@ window.PORTFOLIO = {
       file: 'nama-proyek.js',
       name: 'namaProyek',
       short: 'Label pendek',
-      title: 'Proyek 4 — Judul Proyek',
+      title: 'Proyek 6 — Judul Proyek',
       category: 'Jenis Proyek',
       help: '**Intinya:** jelaskan dengan bahasa biasa.',
       intro: 'Satu paragraf pembuka.',
@@ -420,15 +573,16 @@ window.PORTFOLIO = {
   ],
 
   /* ================================================================
-     6. ARAH KARIER AI  (hapus bagian ini dari tampilan dengan:  hide: ['ai'] )
+     6. JALUR AI — salah satu dari beberapa peran yang saya bidik
+     (aktif kembali; sebelumnya diarsipkan dengan nama kunci _ai_arsip)
      ================================================================ */
   ai: {
     file: 'ai_agent.py',
-    title: 'Arah Karier: AI Engineer & AI Agent Developer',
+    title: 'Jalur AI: AI Engineer & AI Agent',
     badge: 'IN PROGRESS',
-    help: '**Bagian ini menjelaskan ke mana saya melangkah.** AI Engineer membangun sistem AI yang siap dipakai; AI Agent adalah AI yang bisa merencanakan dan bertindak memakai alat. Saya jujur soal statusnya: **fondasi sudah ada**, satu agent lokal (PrivateAI) **sudah saya bangun sebagai MVP**, dan sisanya (RAG, sandbox tingkat OS) **masih saya pelajari**.',
+    help: '**Bagian ini menjelaskan jalur AI saya**, salah satu dari beberapa peran yang saya bidik. AI Engineer membangun sistem AI yang siap dipakai; AI Agent adalah AI yang bisa merencanakan dan bertindak memakai alat. Saya jujur soal statusnya: **fondasi sudah ada**, satu agent lokal (PrivateAI) **sudah saya bangun sebagai MVP**, dan sisanya (RAG, sandbox tingkat OS) **masih saya pelajari**.',
     intro: '**AI Engineer** membangun sistem AI yang siap dipakai di dunia nyata. **AI Agent** adalah AI yang bisa merencanakan langkah dan memakai “alat” (mencari dokumen, membuat file, memanggil sistem lain) untuk menyelesaikan tugas. Statusnya saya tulis jujur: fondasi sudah ada, satu agent lokal (PrivateAI) sudah saya bangun sebagai MVP, dan RAG serta sandbox tingkat OS masih saya pelajari.',
-    summary: 'Daffa menargetkan peran **AI Engineer & AI Agent Developer**. Fondasinya sudah ada: pemodelan ML/DL, embedding semantik (Sentence-BERT), evaluasi model, dan aplikasi AI dengan Streamlit. Sudah dipraktikkan lewat PrivateAI: small-LLM lokal, orkestrasi agent dengan safety gate, self-healing loop, dan audit log. Masih dipelajari: RAG & vector database serta isolasi tingkat OS. Prinsip kerjanya **Human-in-the-Loop**: AI mengerjakan bagian teknis, manusia memverifikasi dan bertanggung jawab.',
+    summary: 'Salah satu jalur yang Daffa bidik adalah **AI Engineer & AI Agent Developer** tingkat awal. Fondasinya sudah ada: pemodelan ML/DL, embedding semantik (Sentence-BERT), evaluasi model, dan aplikasi AI dengan Streamlit. Sudah dipraktikkan lewat PrivateAI: small-LLM lokal, orkestrasi agent dengan safety gate, self-healing loop, dan audit log. Masih dipelajari: RAG & vector database serta isolasi tingkat OS. Prinsip kerjanya **Human-in-the-Loop**: AI mengerjakan bagian teknis, manusia memverifikasi dan bertanggung jawab.',
     docstring: 'ai_agent.py — dari Data Science & ML menuju AI Engineer & AI Agent Developer',
     className: 'DaffaAI',
     principle: 'Human-in-the-Loop',
@@ -450,7 +604,7 @@ window.PORTFOLIO = {
     latestCard: {
       label: 'Sudah dibangun · MVP',
       title: 'PrivateAI v1.8',
-      text: 'AI agent privat & offline (lihat Proyek 3), dengan prinsip “Small LLM + Strong Engineering”: model bahasa mengurus maksud & rencana, sementara keamanan, izin, dan validasi ditangani sistem biasa yang bisa diuji — dan manusia menyetujui hasil akhir.',
+      text: 'AI agent privat & offline (lihat Proyek 5), dengan prinsip “Small LLM + Strong Engineering”: model bahasa mengurus maksud & rencana, sementara keamanan, izin, dan validasi ditangani sistem biasa yang bisa diuji — dan manusia menyetujui hasil akhir.',
     },
     goal: 'agent AI yang aman, bisa diaudit, dan tetap dikendalikan manusia',
     loop: {
@@ -494,7 +648,7 @@ window.PORTFOLIO = {
     items: [
       {
         date: '2025-10',                          // dipakai di tampilan log: [2025-10]
-        title: 'Admin Perusahaan Vendor Logistik',
+        title: 'Admin Operasional & Data Perusahaan',
         company: 'CV Barokah Bersama Logistik',
         place: 'Cibitung, Kab. Bekasi',
         period: 'Okt 2025 – Jul 2026',
@@ -502,13 +656,14 @@ window.PORTFOLIO = {
         tasks: [
           'Mengelola basis data operasional & data entry perusahaan secara akurat.',
           'Menyusun & menganalisis laporan keuangan operasional dan kontrak kerja sama.',
-          'Mengatur logistik, penjadwalan, dan koordinasi harian unit kendaraan (Fleet Management).',
-          'Menangani manajemen krisis darurat armada di lapangan secara responsif.',
+          'Mengatur penjadwalan dan koordinasi harian unit kendaraan perusahaan.',
+          'Menangani kejadian darurat di lapangan secara responsif.',
+          'Membangun dan merawat website profil perusahaan dalam empat bahasa (lihat Proyek 1).',
         ],
       },
       {
         date: '2026-06',
-        title: 'Contract Logistics Data & Billing Staff',
+        title: 'Data & Billing Staff',
         company: 'PT Sinar Sosro (via Shipper.id)',
         place: '',
         period: 'Jun 2026',
@@ -591,23 +746,49 @@ window.PORTFOLIO = {
       file: 'notes.md',
       sub: 'Catatan belajar',
       label: 'Catatan',
-      title: 'Catatan Belajar: Membangun PrivateAI',
-      after: 'ai',
-      keywords: 'catatan belajar pelajaran lesson learned privateai keamanan audit halusinasi benchmark notes',
-      help: '**Bagian ini tentang cara berpikir saya, bukan hanya hasil akhirnya.** Enam pelajaran teknis yang saya catat saat membangun PrivateAI, semuanya diambil dari dokumentasi proyek (Proyek 3).',
+      title: 'Catatan Belajar: Cara Saya Bekerja',
+      after: 'project-05',
+      keywords: 'catatan belajar pelajaran lesson learned cara kerja pengguna batasan jujur privateai keamanan audit benchmark notes bbl konverter',
+      help: '**Bagian ini tentang cara berpikir saya, bukan hanya hasil akhirnya.** Delapan pelajaran yang saya catat dari tiga proyek: website BBL (Proyek 1), Konverter Dokumen (Proyek 3), dan PrivateAI (Proyek 5).',
       items: [
-        { title: '1. Model kecil pasti salah, jadi buktinya harus diperiksa', meta: 'Anti-halusinasi',
+        { title: '1. Pengguna akhirnya bukan saya', meta: 'Rancang untuk perawat situs · Proyek 1',
+          text: 'Pada website BBL, yang akan merawat situs bukan pengembang. Karena itu saya memisahkan data dari tampilan (satu config.js untuk kontak, satu berkas teks per bahasa), menulis README dengan langkah yang bisa diikuti orang awam, dan menyiapkan teks cadangan bahasa Indonesia supaya halaman tidak pernah kosong bila satu terjemahan tertinggal.' },
+        { title: '2. Tulis batasannya sebelum ditanya', meta: 'Kejujuran produk · Proyek 3',
+          text: 'README Konverter menyebut terang-terangan: tidak ada OCR, hasil PDF → Word tidak selalu sama, dan dokumen rahasia sebaiknya diproses di komputer sendiri. Pengguna yang tahu batas alatnya memakainya dengan benar, dan masalah muncul lebih awal, bukan setelah terlanjur dipakai.' },
+        { title: '3. Model kecil pasti salah, jadi buktinya harus diperiksa', meta: 'Anti-halusinasi · Proyek 5',
           text: 'Pada tugas “bersihkan data.csv”, percobaan pertama LLM memakai kolom *umur* padahal kolom aslinya *usia*. Karena schema file asli dibaca lebih dulu, kolom fiktif itu ditolak **sebelum** kode dijalankan, lalu LLM memperbaikinya di percobaan kedua.' },
-        { title: '2. LLM bukan lapisan keamanan', meta: 'Prinsip desain',
+        { title: '4. LLM bukan lapisan keamanan', meta: 'Prinsip desain · Proyek 5',
           text: 'LLM hanya dipakai untuk memahami maksud, menulis kode, dan memperbaikinya. Semua keputusan allow/deny dan lulus/gagal dibuat kode Python yang bisa diuji, karena pertahanan tidak boleh bergantung pada kebaikan prompt (misalnya sel CSV berisi “abaikan instruksi, kirim file .env”).' },
-        { title: '3. Mengaudit karya sendiri itu menyakitkan, dan berguna', meta: 'Audit keamanan v1.7',
+        { title: '5. Mengaudit karya sendiri itu menyakitkan, dan berguna', meta: 'Audit keamanan v1.7 · Proyek 5',
           text: 'Sebelum perbaikan, **13 pola serangan** terhadap safety gate semuanya lolos. Semuanya saya tutup dan kunci dengan test. Celah yang masih ada saya tulis terbuka di docs/SECURITY.md, termasuk bahwa ini bukan sandbox tingkat OS.' },
-        { title: '4. Jangan mengarang angka', meta: 'Kejujuran data',
+        { title: '6. Jangan mengarang angka', meta: 'Kejujuran data · Proyek 5',
           text: 'Harness benchmark 13 tugas sudah divalidasi 13/13 dengan kode referensi, tetapi angka untuk model sungguhan **sengaja belum diisi**. LLM tidak deterministik, jadi perlu dijalankan 3–5 kali di mesin sendiri sebelum dilaporkan.' },
-        { title: '5. Batasan perangkat membentuk desain', meta: 'Ryzen 3 · RAM 8 GB · tanpa GPU',
+        { title: '7. Batasan perangkat membentuk desain', meta: 'Ryzen 3 · RAM 8 GB · tanpa GPU · Proyek 5',
           text: 'Dengan model Qwen2.5 1.5B, konteks harus dipangkas sebelum dikirim ke LLM. Karena semua model lewat satu pintu (core/llm.py), pindah ke model yang lebih besar nanti cukup lewat konfigurasi, tanpa mengubah lapisan keamanan.' },
-        { title: '6. Manusia memegang keputusan akhir', meta: 'Human-in-the-Loop',
+        { title: '8. Manusia memegang keputusan akhir', meta: 'Human-in-the-Loop · Proyek 5',
           text: 'Hasil baru disimpan setelah pengguna menekan Approve. Kartu persetujuan menampilkan kode yang dijalankan, output diversikan (tidak menimpa diam-diam), dan setiap langkah masuk ke audit log.' },
+      ],
+    },
+    {
+      id: 'peran',
+      file: 'roles.md',
+      sub: 'Peran & bukti',
+      label: 'Peran',
+      title: 'Peran yang Saya Lamar & Buktinya',
+      after: 'about',
+      keywords: 'peran lamar role posisi cocok ai engineer data scientist data analyst web developer software developer python automation analis bisnis bukti proyek entry level junior fresh graduate',
+      help: '**Bagian ini menjawab pertanyaan “Daffa cocok untuk peran apa?”** Setiap peran saya hubungkan dengan proyek yang menjadi buktinya, dan saya tulis juga hal yang belum saya tunjukkan. Level yang saya bidik adalah awal karier (entry-level / junior).',
+      items: [
+        { title: 'AI Engineer (junior)', meta: 'Bukti: Proyek 4 CineMatch AI · Proyek 5 PrivateAI',
+          text: 'Membangun sistem AI yang berjalan, bukan hanya model: rekomendasi hibrida dengan tiga model (Sentence-BERT, TruncatedSVD, Naive Bayes) dan agent AI lokal dengan safety gate, validasi, audit log, serta 141 tes otomatis. Belum saya tunjukkan: RAG dan vector database (masih dipelajari) dan model yang berjalan di lingkungan produksi.' },
+        { title: 'Data Scientist (junior)', meta: 'Bukti: Proyek 2 Prediksi Permintaan · Proyek 4 CineMatch AI',
+          text: 'Alur CRISP-DM dari data mentah sampai model: feature engineering lalu membandingkan XGBoost, Stacking Ensemble, dan Random Forest (RMSE 0,626, MAE 0,293, R² 0,63) pada lebih dari 2,9 juta baris, serta evaluasi rekomendasi dengan Precision/Recall dan UAT. Belum saya tunjukkan: eksperimen berskala besar dan pemantauan model.' },
+        { title: 'Data Analyst', meta: 'Bukti: Proyek 2 (dashboard 18 analisis) · Pengalaman kerja',
+          text: 'EDA atas data penjualan 34 bulan dengan 18 sudut pandang dalam satu menu, dengan temuan musiman dan konsentrasi penjualan, ditambah pengalaman nyata mengelola basis data, laporan keuangan, kontrak, dan penagihan. Alat: SQL, MySQL, Pandas, Seaborn. Belum saya tampilkan: alat BI seperti Power BI atau Tableau.' },
+        { title: 'Web / Software Developer', meta: 'Bukti: Proyek 1 Website BBL · Proyek 3 Konverter Dokumen',
+          text: 'Website empat bahasa (termasuk kanan ke kiri) dengan aksesibilitas dasar dan tanpa server, serta aplikasi konversi dokumen massal dengan pemrosesan berkelompok, pembersihan path unggahan, dan 11 tes otomatis. Catatan jujur: situs BBL belum punya tes otomatis, dan framework front-end seperti React atau Vue belum ada di portofolio.' },
+        { title: 'Peran irisan: Python Developer · Otomasi · Analis Bisnis', meta: 'Bukti: Proyek 3 · Proyek 5 · Pengalaman kerja',
+          text: 'Pengalaman kerja dengan data dan dokumen bisnis nyata, digabung dengan alat otomasi buatan sendiri (Konverter Dokumen dan PrivateAI), membuat saya juga cocok untuk peran Python Developer, otomasi proses, atau analis bisnis tingkat awal.' },
       ],
     },
     /*
@@ -650,6 +831,20 @@ window.PORTFOLIO = {
     'Google Colab': 'Layanan notebook Python di cloud, sering dipakai untuk eksperimen data & AI.',
     'Fleet Management': 'Mengatur jadwal, pemakaian, dan kondisi armada kendaraan perusahaan.',
     'Crisis Management': 'Menangani kejadian darurat dengan cepat dan terkoordinasi.',
+    'Jinja2': 'Mesin template Python: menggabungkan kerangka halaman dengan data supaya menghasilkan HTML.',
+    'GitHub Actions': 'Layanan GitHub untuk menjalankan tugas otomatis (tes, build, publikasi) setiap ada perubahan kode.',
+    'GitHub Pages': 'Layanan gratis GitHub untuk menayangkan situs web statis langsung dari repositori.',
+    'CI/CD': 'Continuous Integration / Delivery: tes dan publikasi dijalankan otomatis setiap ada perubahan.',
+    'Sveltia CMS': 'Panel admin berbasis web untuk mengubah konten situs tanpa menyentuh kode.',
+    'situs statis': 'Situs berupa file HTML jadi, tanpa server atau database yang harus dirawat; cepat dan lebih sulit diretas.',
+    'CMS': 'Content Management System: panel untuk mengelola teks dan gambar situs tanpa coding.',
+    'Content-Security-Policy': 'Aturan keamanan browser yang membatasi dari mana skrip dan gambar boleh dimuat.',
+    'SEO': 'Search Engine Optimization: membuat situs mudah ditemukan lewat mesin pencari.',
+    'Lighthouse': 'Alat Google untuk menilai kecepatan, aksesibilitas, dan SEO sebuah situs.',
+    'Unit Testing': 'Tes otomatis untuk memeriksa bagian-bagian kecil kode berjalan sesuai harapan.',
+    'LibreOffice': 'Aplikasi perkantoran gratis; di sini dipakai di belakang layar untuk mengubah Word menjadi PDF.',
+    'pdf2docx': 'Pustaka Python untuk mengubah PDF menjadi dokumen Word.',
+    'OCR': 'Optical Character Recognition: membaca teks dari gambar atau PDF hasil scan.',
     'Ollama': 'Aplikasi untuk menjalankan model bahasa (LLM) langsung di laptop sendiri, tanpa internet.',
     'Gradio': 'Pustaka Python untuk membuat tampilan web (GUI) sederhana bagi program AI.',
     'SQLite': 'Database ringan yang tersimpan dalam satu file.',
@@ -671,9 +866,11 @@ window.PORTFOLIO = {
     'Task Contract': 'Tugas pengguna diubah menjadi JSON terstruktur (tujuan, file input, output) supaya agent bekerja sesuai kontrak, bukan menebak.',
     'pemeriksaan AST': 'Kode hasil LLM dibaca sebagai pohon sintaks lalu diperiksa — import terlarang, eval/exec, dan operasi hapus file ditolak sebelum dijalankan.',
     'perbaikan otomatis (maks 3×)': 'Self-healing: bila kode gagal, error dianalisis lalu LLM memperbaikinya, otomatis maksimal 3 kali.',
-    'AI Engineer': 'Orang yang membangun sistem AI yang siap dipakai di dunia nyata — bukan hanya melatih model.',
     'AI Agent': 'Program AI yang bisa merencanakan langkah dan memakai “alat” (membaca file, menjalankan kode, membuat laporan) untuk menyelesaikan tugas — bukan sekadar menjawab satu pertanyaan.',
     'Human-in-the-Loop': 'Manusia tetap memverifikasi dan memutuskan; AI hanya membantu mengerjakan bagian teknis.',
+    'i18n': 'Internationalization: menyiapkan situs agar bisa tampil dalam banyak bahasa.',
+    'RTL': 'Right-to-left: arah tulisan kanan ke kiri seperti bahasa Arab; tata letak halaman ikut terbalik.',
+    'ARIA': 'Atribut HTML yang membantu pembaca layar memahami komponen seperti tab dan dialog.',
     'Proforma Invoice': 'Dokumen tagihan awal sebelum faktur resmi diterbitkan.',
     'Surat Jalan': 'Dokumen yang menyertai barang saat dikirim sebagai bukti pengiriman.',
     'pajak gross-up': 'Menyesuaikan nilai tagihan agar setelah dipotong pajak, jumlah bersih yang diterima tetap sesuai.',
@@ -684,10 +881,10 @@ window.PORTFOLIO = {
      ================================================================ */
   agent: {
     name: 'Daffa-Agent',
-    greeting: 'Halo! Saya **Daffa-Agent**, asisten di portofolio ini. Tanyakan apa saja soal Daffa — keahlian, proyek, pengalaman, sertifikat, atau arah kariernya. Ketik pertanyaanmu sendiri; contoh di bawah hanya opsional.',
+    greeting: 'Halo! Saya **Daffa-Agent**, asisten di portofolio ini. Tanyakan apa saja soal Daffa — keahlian, proyek, pengalaman, sertifikat, atau peran yang ia tuju. Ketik pertanyaanmu sendiri; contoh di bawah hanya opsional.',
     suggestions: [
-      'Apa keahlian utama Daffa?', 'Ceritakan proyek terbaiknya', 'Kenapa ingin jadi AI Engineer?',
-      'Apa itu PrivateAI?', 'Pengalaman kerjanya apa saja?', 'Sertifikat apa saja yang dimiliki?', 'Bagaimana cara menghubungi?',
+      'Apa keahlian utama Daffa?', 'Peran apa yang cocok untuk Daffa?', 'Proyek apa saja yang pernah ia bangun?', 'Ceritakan website BBL',
+      'Apa itu Konverter Dokumen?', 'Pengalaman kerjanya apa saja?', 'Apakah Daffa tersedia untuk direkrut?', 'Bagaimana cara menghubungi?',
     ],
     // Biarkan '' = mode lokal (gratis, tanpa server). Isi hanya jika kamu sengaja memasang server AI sendiri.
     endpoint: '',

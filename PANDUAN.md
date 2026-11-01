@@ -133,3 +133,17 @@ Tiap proyek punya blok `docs` (ringkasan, fakta, temuan, galeri gambar, batasan)
 
 ## 12. Privasi (repo publik)
 Nomor WhatsApp tidak ditampilkan sebagai teks; tombol WhatsApp tetap berfungsi, tetapi nomornya tetap ada di tautan `wa.me` pada kode (tidak bisa disembunyikan sepenuhnya di situs statis). Domisili hanya "Bekasi, Jawa Barat". File Word CV tidak disertakan di repo.
+
+## 13. Positioning (Nov 2026, revisi) — apa yang berubah
+Portofolio dibuat **multi-jalur**: AI/ML, Data Science & Analitik, dan Web/Software, dengan pengalaman kerja bisnis sebagai nilai tambah (tanpa menonjolkan satu industri). Level yang dibidik: awal karier (junior).
+
+- **Peran yang dituju** ada di `profile.next`: AI Engineer, Data Scientist, Data Analyst, Web / Software Developer. Sesuaikan dengan lowongan yang dibidik.
+- **Bagian "Peran & bukti"** (`extra`, id `peran`) menghubungkan tiap peran dengan proyek pembuktinya dan menulis apa yang belum ditunjukkan. Perbarui bila ada proyek atau keahlian baru. Di `content.en.js`, urutan item harus sama.
+- **Bagian "Jalur AI"** aktif lagi (kunci `ai`; sebelumnya `_ai_arsip`).
+- **Proyek 1 (Website BBL)** ditulis ulang: situs statis 4 bahasa (ID, EN, Arab RTL, Mandarin), tanpa panel admin dan tanpa tes otomatis. Dokumentasinya: `assets/dokumentasi/dokumentasi-website-bbl.pdf` dan gambar `bbl-*.webp`.
+- **Angka tes otomatis** di bagian About kini 152 (Konverter 11 + PrivateAI 141).
+- **Skill GitHub Actions dan CI/CD dihapus** karena buktinya hanya dari proyek BBL lama. Kembalikan di `skills.groups` bila dipakai di proyek lain.
+- **Jabatan kerja** ditulis netral ("Admin Operasional & Data Perusahaan", "Data & Billing Staff"). Samakan dengan CV.
+- **Link GitHub/demo** Proyek 1 dan 3 masih kosong; isi setelah repositori dibuat.
+- **CV (`cv.pdf`, `cv-en.pdf`)** belum diubah. Samakan dengan isi situs sebelum dibagikan.
+- **Menambah proyek lagi:** sisipkan blok di kedua file konten (urutan harus sama), lalu perbarui nomor di `title` dan `after: 'project-05'` pada bagian `extra`.
