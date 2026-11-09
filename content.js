@@ -81,7 +81,7 @@ window.PORTFOLIO = {
     paragraphs: [
       'Lulusan S1 Informatika dari **Universitas Gunadarma** (IPK 3.61). Saya terbiasa memecah masalah menjadi langkah yang jelas: memahami kebutuhan, mengolah data, membangun solusi, mengujinya, lalu mendokumentasikannya supaya bisa dipakai dan dirawat orang lain.',
       'Kemampuan saya berada di tiga jalur yang saling menopang: **AI & machine learning** (sistem rekomendasi hibrida CineMatch AI dan agent AI lokal PrivateAI), **data science & analitik** (prediksi permintaan dari dataset >2,9 juta transaksi dan dashboard 18 analisis), serta **web & software** (website perusahaan empat bahasa dan alat konversi dokumen massal). Di balik itu, pengalaman kerja saya di administrasi, pelaporan keuangan, kontrak, dan penagihan membuat saya terbiasa dengan data dan proses bisnis yang sebenarnya, bukan hanya dataset latihan.',
-      'Saya melamar ke peran tingkat awal yang sesuai dengan bukti proyek: **AI Engineer, Data Scientist, Data Analyst, atau Web/Software Developer**. Bagian “Peran & bukti” menunjukkan proyek mana yang mendukung tiap peran, termasuk hal yang masih saya pelajari.',
+      'Saya melamar ke peran tingkat awal yang sesuai dengan bukti proyek: **AI Engineer, Data Scientist, Data Analyst, atau Web/Software Developer**.',
     ],
     strengthsTitle: 'Yang Saya Bawa',
     strengths: [
@@ -767,28 +767,6 @@ window.PORTFOLIO = {
           text: 'Dengan model Qwen2.5 1.5B, konteks harus dipangkas sebelum dikirim ke LLM. Karena semua model lewat satu pintu (core/llm.py), pindah ke model yang lebih besar nanti cukup lewat konfigurasi, tanpa mengubah lapisan keamanan.' },
         { title: '8. Manusia memegang keputusan akhir', meta: 'Human-in-the-Loop · Proyek 5',
           text: 'Hasil baru disimpan setelah pengguna menekan Approve. Kartu persetujuan menampilkan kode yang dijalankan, output diversikan (tidak menimpa diam-diam), dan setiap langkah masuk ke audit log.' },
-      ],
-    },
-    {
-      id: 'peran',
-      file: 'roles.md',
-      sub: 'Peran & bukti',
-      label: 'Peran',
-      title: 'Peran yang Saya Lamar & Buktinya',
-      after: 'about',
-      keywords: 'peran lamar role posisi cocok ai engineer data scientist data analyst web developer software developer python automation analis bisnis bukti proyek entry level junior fresh graduate',
-      help: '**Bagian ini menjawab pertanyaan “Daffa cocok untuk peran apa?”** Setiap peran saya hubungkan dengan proyek yang menjadi buktinya, dan saya tulis juga hal yang belum saya tunjukkan. Level yang saya bidik adalah awal karier (entry-level / junior).',
-      items: [
-        { title: 'AI Engineer (junior)', meta: 'Bukti: Proyek 4 CineMatch AI · Proyek 5 PrivateAI',
-          text: 'Membangun sistem AI yang berjalan, bukan hanya model: rekomendasi hibrida dengan tiga model (Sentence-BERT, TruncatedSVD, Naive Bayes) dan agent AI lokal dengan safety gate, validasi, audit log, serta 141 tes otomatis. Belum saya tunjukkan: RAG dan vector database (masih dipelajari) dan model yang berjalan di lingkungan produksi.' },
-        { title: 'Data Scientist (junior)', meta: 'Bukti: Proyek 2 Prediksi Permintaan · Proyek 4 CineMatch AI',
-          text: 'Alur CRISP-DM dari data mentah sampai model: feature engineering lalu membandingkan XGBoost, Stacking Ensemble, dan Random Forest (RMSE 0,626, MAE 0,293, R² 0,63) pada lebih dari 2,9 juta baris, serta evaluasi rekomendasi dengan Precision/Recall dan UAT. Belum saya tunjukkan: eksperimen berskala besar dan pemantauan model.' },
-        { title: 'Data Analyst', meta: 'Bukti: Proyek 2 (dashboard 18 analisis) · Pengalaman kerja',
-          text: 'EDA atas data penjualan 34 bulan dengan 18 sudut pandang dalam satu menu, dengan temuan musiman dan konsentrasi penjualan, ditambah pengalaman nyata mengelola basis data, laporan keuangan, kontrak, dan penagihan. Alat: SQL, MySQL, Pandas, Seaborn. Belum saya tampilkan: alat BI seperti Power BI atau Tableau.' },
-        { title: 'Web / Software Developer', meta: 'Bukti: Proyek 1 Website BBL · Proyek 3 Konverter Dokumen',
-          text: 'Website empat bahasa (termasuk kanan ke kiri) dengan aksesibilitas dasar dan tanpa server, serta aplikasi konversi dokumen massal dengan pemrosesan berkelompok, pembersihan path unggahan, dan 11 tes otomatis. Catatan jujur: situs BBL belum punya tes otomatis, dan framework front-end seperti React atau Vue belum ada di portofolio.' },
-        { title: 'Peran irisan: Python Developer · Otomasi · Analis Bisnis', meta: 'Bukti: Proyek 3 · Proyek 5 · Pengalaman kerja',
-          text: 'Pengalaman kerja dengan data dan dokumen bisnis nyata, digabung dengan alat otomasi buatan sendiri (Konverter Dokumen dan PrivateAI), membuat saya juga cocok untuk peran Python Developer, otomasi proses, atau analis bisnis tingkat awal.' },
       ],
     },
     /*

@@ -138,7 +138,6 @@ Nomor WhatsApp tidak ditampilkan sebagai teks; tombol WhatsApp tetap berfungsi, 
 Portofolio dibuat **multi-jalur**: AI/ML, Data Science & Analitik, dan Web/Software, dengan pengalaman kerja bisnis sebagai nilai tambah (tanpa menonjolkan satu industri). Level yang dibidik: awal karier (junior).
 
 - **Peran yang dituju** ada di `profile.next`: AI Engineer, Data Scientist, Data Analyst, Web / Software Developer. Sesuaikan dengan lowongan yang dibidik.
-- **Bagian "Peran & bukti"** (`extra`, id `peran`) menghubungkan tiap peran dengan proyek pembuktinya dan menulis apa yang belum ditunjukkan. Perbarui bila ada proyek atau keahlian baru. Di `content.en.js`, urutan item harus sama.
 - **Bagian "Jalur AI"** aktif lagi (kunci `ai`; sebelumnya `_ai_arsip`).
 - **Proyek 1 (Website BBL)** ditulis ulang: situs statis 4 bahasa (ID, EN, Arab RTL, Mandarin), tanpa panel admin dan tanpa tes otomatis. Dokumentasinya: `assets/dokumentasi/dokumentasi-website-bbl.pdf` dan gambar `bbl-*.webp`.
 - **Angka tes otomatis** di bagian About kini 152 (Konverter 11 + PrivateAI 141).
